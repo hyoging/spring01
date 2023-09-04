@@ -1,0 +1,15 @@
+package com.care.di_test02;
+
+public class OperationClass {
+
+	public int operation(int num1, int num2, String op) {
+		int result;
+		if(op.equals("+")) {
+			num1 + num2
+		}
+		return 0;
+	}
+
+	
+
+}

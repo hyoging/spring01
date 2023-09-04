@@ -1,0 +1,13 @@
+package com.care.di_test02;
+
+public class SaveClass {
+
+	private int num1, num2, result;
+	private String op;
+	private PrintClass pc;
+	private OperationClass oc;
+	
+	public void OperationClass() {
+		result = oc.operation(num1, num2, op);
+	}
+}
